@@ -12,8 +12,8 @@ struct ContentView: View {
     @State var isMenuDisplayed: Bool = true
     var body: some View {
         VStack {
-//            ContentHeader()
-//                .layoutPriority(2)
+            ContentHeader()
+                .layoutPriority(2)
             Button(action:{self.isMenuDisplayed.toggle()}){
                 PageTitleView(isDisplayOrder: isMenuDisplayed, title: "Order Pizza"
                 )

@@ -14,12 +14,12 @@ struct SubHeader: View {
         HStack {
             Text(title)
                 .padding(.leading, 10)
-                .foregroundColor(Color("G2"))
+                .foregroundColor(Color("B3"))
             Spacer()
             Text(orderModel.formattedTotal)
                 .fontWeight(.heavy)
-                .foregroundColor(Color("G2"))
-        }.background(Color("G4"))
+                .foregroundColor(Color("B3"))
+        }.background(Color("B2"))
     }
 }
 

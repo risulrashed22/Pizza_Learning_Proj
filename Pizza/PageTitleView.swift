@@ -20,12 +20,12 @@ struct PageTitleView: View {
         }.overlay(
             Image(systemName: isDisplayOrder ?? false ? "chevron.up.square" : "chevron.down.square")
                 .font(.title)
-                .foregroundColor(isDisplayOrder != nil ? Color("G1") : .clear)
+                .foregroundColor(isDisplayOrder != nil ? Color("B3") : .clear)
                 .padding(),
             alignment: .leading
         )
-        .foregroundColor(Color("G2"))
-        .background(Color("G4"))
+        .foregroundColor(Color("B3"))
+        .background(Color("B1"))
     }
 }
 
